@@ -1,5 +1,7 @@
 body{
   margin: 0;
+  overflow-x: hidden;
+
 
 }
 
@@ -73,7 +75,11 @@ header {
   letter-spacing: 1px;
   line-height: 1.5;
   text-align: justify;
-  border: solid red 1px;
+  /* border: solid red 1px; */
+}
+
+.container div:last-of-type{
+  margin-bottom: 100px;
 }
 
 .container .nav-pills {
