@@ -78,17 +78,46 @@ header {
   /* border: solid red 1px; */
 }
 
-.container div:last-of-type{
+.container > div:last-of-type{
   margin-bottom: 100px;
 }
 
 .container .nav-pills {
   margin: 50px 50px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: start;
   align-items: center;
-  width: 60%;
-  border: solid red 1px;
+  /* width: 50%; */
+  /* border: solid red 1px; */
+}
+
+.container .nav-pills div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px;
+  margin-right: 50px;
+  font-size: 1rem;
+  /* border: solid red 1px; */
+}
+
+.container .nav-pills div:first-of-type{
+  background-color: #1a1a1a;
+  color: white;
+
+}
+
+.container .nav-pills div:first-of-type a{
+  color: white;
+
+}
+
+.container a{
+  text-align: center;
+  text-decoration: none;
+  color: #1a1a1a;
+  width: 100%;
 }
 
 
