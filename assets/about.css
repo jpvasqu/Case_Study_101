@@ -1,0 +1,8 @@
+main{
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.text-bg-purple {
+  background-color: #5e3281;
+}
