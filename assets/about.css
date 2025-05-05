@@ -61,15 +61,16 @@ header {
 
 .text-group {
   padding: 20px 20px 20px 20px;
+  transition: all 0.3s ease-in-out;
 }
 
 .text-group:hover {
   cursor: pointer;
-  background-color: rgb(72, 71, 71);
-  color: white;
+  /* background-color: rgb(72, 71, 71); */
+  color: rgb(48, 48, 48);
+
   transform: scale(1.05);
   border-radius: 10px;
-  transition: all 0.4s ease-in-out;
 }
 
 .container {
