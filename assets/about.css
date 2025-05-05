@@ -1,16 +1,16 @@
-body{
+body {
   margin: 0;
   overflow-x: hidden;
   background-color: white;
-
-
 }
 
-main{
+main {
   min-width: 100vw;
   min-height: 100vh;
   background-color: white;
-  font-family:  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 header {
@@ -48,16 +48,28 @@ header {
   background-size: 20% 180%;
   z-index: 1;
   margin: 0;
-  
 }
 
 .text-bg-purple {
   background-color: #5e3281;
 }
 
-.text-bg-purple h1{
+.text-bg-purple h1 {
   margin-bottom: 30px;
   font-weight: 500;
+}
+
+.text-group {
+  padding: 20px 20px 20px 20px;
+}
+
+.text-group:hover {
+  cursor: pointer;
+  background-color: rgb(72, 71, 71);
+  color: white;
+  transform: scale(1.05);
+  border-radius: 10px;
+  transition: all 0.4s ease-in-out;
 }
 
 .container {
@@ -67,7 +79,7 @@ header {
   flex-direction: column;
 }
 
-.container div{
+.container div {
   width: 50%;
   color: #55595c;
   font-weight: 400;
@@ -79,7 +91,7 @@ header {
   /* border: solid red 1px; */
 }
 
-.container > div:last-of-type{
+.container > div:last-of-type {
   margin-bottom: 100px;
 }
 
@@ -92,33 +104,30 @@ header {
   /* border: solid red 1px; */
 }
 
-.container .nav-pills div{
+.container .nav-pills div {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px 10px 10px 10px;
   border-radius: 10px;
   margin-right: 50px;
-  font-size: 1rem;
+  font-size: 0.8rem;
+  font-weight: 500;
   /* border: solid red 1px; */
 }
 
-.container .nav-pills div:first-of-type{
+.container .nav-pills div:first-of-type {
   background-color: #1a1a1a;
   color: white;
-
 }
 
-.container .nav-pills div:first-of-type a{
+.container .nav-pills div:first-of-type a {
   color: white;
-
 }
 
-.container a{
+.container a {
   text-align: center;
   text-decoration: none;
   color: #1a1a1a;
   width: 100%;
 }
-
-
