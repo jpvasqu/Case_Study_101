@@ -1,6 +1,7 @@
 body{
   margin: 0;
   overflow-x: hidden;
+  background-color: white;
 
 
 }
@@ -8,7 +9,7 @@ body{
 main{
   min-width: 100vw;
   min-height: 100vh;
-  background-color: whitesmoke;
+  background-color: white;
   font-family:  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
@@ -17,14 +18,14 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  height: 8vh;
-  background-color: whitesmoke;
+  height: 9.5vh;
+  background-color: white;
   z-index: 2;
   /* border: solid cyan 1px; */
 }
 
 .blog-purple-wave-container {
-  margin-top: 8vh;
+  margin-top: 9.5vh;
   position: relative;
   display: flex;
   align-items: center;
