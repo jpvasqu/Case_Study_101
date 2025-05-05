@@ -100,3 +100,7 @@ nav{
     justify-content: center;
 }
 
+.parent a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
