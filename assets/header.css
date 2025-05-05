@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+}
+
+header{
+    border: solid 2px black;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 20px 40px;
+    /* border: solid 2px black; */
+    gap: 20px;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    /* border: solid 2px green; */
+    height: 50px;
+}
+
+.parent a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    height: 35px;
+    width: auto;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    padding: 2;
+}
+
+.parent a:hover{
+    background-color: green;
+    color: white;
+}
+
+.logins{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    /* border: solid 2px black; */
+    width: 200px;
+}
+
+.logins a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    height: 35px;
+    width: auto;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+}
+
+.logins .sign-in{
+    border: solid 2px #5e3281;
+    height: 40px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.logins .join-now{
+    background-color: #5e3281;
+    height: 45px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+}
+
