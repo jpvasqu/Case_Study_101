@@ -3,19 +3,25 @@ body{
 }
 
 header{
-    border: solid 2px black;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     display: flex;
-    justify-content: space-around;
+    /* background-color: pink; */
+    justify-content: space-between;
 }
 
 nav{
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     padding: 20px 40px;
-    /* border: solid 2px black; */
     gap: 20px;
+    /* border: solid 2px black; */
+    width: 45%;
 }
+
+/* #img{
+    border: solid 2px red;
+} */
 
 .parent{
     display: flex;
@@ -29,20 +35,18 @@ nav{
 .parent a{
     text-decoration: none;
     color: black;
-    font-size: 15px;
-    font-weight: 700;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
     height: 35px;
     width: auto;
-    border-radius: 5px;
+    border-radius: 0.5rem !important;
     align-items: center;
     display: flex;
     padding: 2;
 }
 
-.parent a:hover{
-    background-color: green;
-    color: white;
-}
 
 .logins{
     display: flex;
@@ -51,27 +55,30 @@ nav{
     gap: 10px;
     /* border: solid 2px black; */
     width: 200px;
+    width: 23%;
 }
 
 .logins a{
     text-decoration: none;
-    color: black;
     font-size: 16px;
     font-weight: 400;
     height: 35px;
     width: auto;
-    border-radius: 5px;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    border-radius: 0.5rem;
     align-items: center;
     display: flex;
 }
 
 .logins .sign-in{
     border: solid 2px #5e3281;
-    height: 40px;
+    height: 43px;
     width: 80px;
     display: flex;
     justify-content: center;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .logins .join-now{
@@ -82,5 +89,14 @@ nav{
     justify-content: center;
     border-radius: 10px;
     color: white;
+}
+
+#about{
+    background-color: #117F41;
+    color: white;
+    width: 65px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
 }
 
