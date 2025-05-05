@@ -67,7 +67,7 @@ header {
 .text-group:hover {
   cursor: pointer;
   /* background-color: rgb(72, 71, 71); */
-  color: rgb(48, 48, 48);
+  color: rgb(20, 20, 20);
 
   transform: scale(1.05);
   border-radius: 10px;
